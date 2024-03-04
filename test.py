@@ -6,6 +6,3 @@ print("test5")
 print("test10")
 print("test11")
 print("test12")
-print("test13")
-
-import pandas as pd
