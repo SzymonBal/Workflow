@@ -18,10 +18,14 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.x' 
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install black
+        pip install black ruff  # Instalacja zarówno Black jak i Ruff
 
     - name: Run Black
       run: black --check .
+
+    - name: Run Ruff
+      run: ruff check .  # Uruchomienie Ruff z opcją sprawdzenia formatowania
