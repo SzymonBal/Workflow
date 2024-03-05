@@ -1,3 +1,5 @@
+import pandas as pd
+
 print("test")
 print("test2")
 print("test3")
@@ -12,4 +14,4 @@ print("test15")
 print("test16")
 print("test 17")
 
-import pandas as pd
+
